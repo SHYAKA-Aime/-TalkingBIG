@@ -68,16 +68,20 @@
     }
 
     .agenda-header {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 36px;
-      margin-top: 40px;
-      margin-bottom: 20px;
-      font-weight: bold;
-      background-color: #000;
-      color: #fff;
-      padding: 10px 0;
-    }
-
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+  width: calc(100% + 80px); /* Increase width beyond container's padding */
+  margin-left: -40px; /* Move it to the left by the padding amount */
+  margin-right: -40px; /* Move it to the right by the padding amount */
+  text-align: center;
+  box-sizing: border-box;
+}
     .agenda {
       text-align: left;
       font-family: 'Lato', sans-serif;
