@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>#TalkingBIG</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    * {
+  margin: 0;
+  
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('bg.png'); /* Background image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%; 
+}
+
+.header h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.header p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.second h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  letter-spacing: 2px; 
+}
+
+.second .subtitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+  letter-spacing: 3px; 
+  text-transform: uppercase; 
+  line-height: 1.5; 
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.button {
+  display: block;
+  background-color: #4a4a4a;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  max-width: 300px; 
+  width: 100%; 
+  margin: 0 auto; 
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+/* Responsive design for tablets and smaller screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 12px;
+  }
+  
+  .second h1 {
+    font-size: 50px;
+    letter-spacing: 1.5px;
+  }
+
+  .second .subtitle {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+}
+
+/* Responsive design for mobile phones */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 10px;
+    max-width: 180px; 
+  }
+
+  .second h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
+
+  .second .subtitle {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    line-height: 1.2; 
+  }
+
+  .container {
+    padding: 20px;
+  }
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h3>INFINITE AXIS & NDINDA DESIGN STUDIO</h3>
+      <p>Presents</p>
+    </div>
+
+    <div class="second">
+    <h1>#TalkingBIG</h1>
+    <p class="subtitle">Buildings.&nbsp;&nbsp; Innovation. &nbsp;&nbsp;Goals.</p>
+  </div>
+
+    <div class="buttons">
+      <a href="https://photos.google.com/share/AF1QipMHNh85O4k9bMBzoj6-KjT4oC4HatyLeVMOB6hYlVA3ZBNlewuvi-hSuDE_yLS1Qg?key=OFdhbDdrbmxKS21FZV9WMWJNaVFaelRJTlREUFJn " class="button" target="_blank">Gallery #TalkingBIG Ep1</a>
+      <a href="https://photos.app.goo.gl/CaVzfq8Tciph4ftd6" class="button" target="_blank">Gallery #TalkingBIG Ep2</a>
+      <a href="index.html" class="button">Back Homepage</a>
+
+      <!-- <a href="#" class="button">Our Socials</a>
+      <a href="#" class="button">Let's Talk</a> -->
+    </div>
+  </div>
+</body>
+</html>
